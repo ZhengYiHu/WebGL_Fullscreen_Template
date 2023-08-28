@@ -1,5 +1,6 @@
 # WebGL_Fullscreen_Template
- A full screen template for Unity WebGL builds
+ A full screen template for Unity WebGL builds.
+ [Download](https://github.com/ZhengYiHu/WebGL_Fullscreen_Template/releases/tag/Latest).
 
  ## Overview
 

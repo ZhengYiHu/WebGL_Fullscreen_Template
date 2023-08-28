@@ -13,3 +13,16 @@
   Under `Edit -> Project Setting -> Player -> Resolution and Presentation`, you can find the newly imported templated to be selected.
 
   ![](https://github.com/ZhengYiHu/WebGL_Fullscreen_Template/blob/main/~ReadMeMedia/SelectTemplate.png)
+
+  Make sure that [Decompression Fallback](https://docs.unity3d.com/Manual/webgl-deploying.html) is enabled in `Edit -> Project Setting -> Player -> Publishing Settings -> Decompression Fallback` while using the default compression settings.
+  
+  ![](https://github.com/ZhengYiHu/WebGL_Fullscreen_Template/blob/main/~ReadMeMedia/PublishingSettings.png)
+
+  And Build the Game `File -> Build Settings -> WebGL5 -> Build`
+  
+  ![](https://github.com/ZhengYiHu/WebGL_Fullscreen_Template/blob/main/~ReadMeMedia/BuildSettings.png).
+
+  ## Customization
+
+  You can customize the favicon by replacing `FullScreen -> TemplateData -> favicon.ico` and the initial loading background under `Edit -> Project Setting -> Player -> Splash Image`.
+  Further customization is also possible by modifying `index.html` and `TemplateData -> style.css` manually.
